@@ -3,9 +3,23 @@
   padding: 0;
 }
 
+.body a {
+  color: black;
+}
+
+.mainheader {
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+}
+
 .header {
   height: 5vh;
-  background-color: #09e9e9;
+  background-color: #b4b1f8;
   width: 100%;
   margin: 0px;
   text-align: center;
@@ -33,18 +47,56 @@
 
 .un_ordered li {
   list-style: none;
-  text-decoration: none;
 }
 
 .un_ordered li a {
   text-decoration: none;
 }
 
+.page {
+  font-size: 15px;
+  color: black;
+  font-weight: 200;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+.shop {
+  font-size: 15px;
+  color: black;
+  font-weight: 200;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  position: relative;
+}
+
 .navbar {
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 8vh;
+  margin-top: 5vh;
+  margin-left: 5%;
   justify-content: space-between;
+}
+
+.topicals {
+  font-size: 3rem;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.search_icon {
+  color: black;
+}
+
+.main {
+  height: 200vh;
 }
