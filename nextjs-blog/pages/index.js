@@ -16,6 +16,60 @@ export default function Home ()
           <Typography className={ styles.header_a }>Subscribe To Save 10% On Your Next Topicals Delivery</Typography>
         </div>
       </Link>
+
+      <div className={ styles.navbar }>
+        <ul className={ styles.un_ordered }>
+          <li>
+            <Link href=''>
+              <Typography>Shop</Typography>
+            </Link>
+          </li>
+          <li>
+            <Link href=''>
+              <Typography>Holiday Gifts</Typography>
+            </Link>
+          </li>
+          <li>
+            <Link href=''>
+              <Typography>Rewards</Typography>
+            </Link>
+          </li>
+          <li>
+            <Link href=''>
+              <Typography>About</Typography>
+            </Link>
+          </li>
+        </ul>
+
+
+        <Typography>TOPICALS</Typography>
+
+
+        <ul className={ styles.un_ordered }>
+          <li>
+            <Link href=''>
+              <Typography>Search</Typography>
+            </Link>
+          </li>
+          <li>
+            <Link href=''>
+              <Typography>Help</Typography>
+            </Link>
+          </li>
+          <li>
+            <Link href=''>
+              <Typography>Account</Typography>
+            </Link>
+          </li>
+          <li>
+            <Link href=''>
+              <Typography>Bag</Typography>
+            </Link>
+          </li>
+        </ul>
+
+      </div>
+
     </div>
   )
 }

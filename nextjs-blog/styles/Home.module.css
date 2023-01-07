@@ -12,6 +12,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .header_a {
@@ -20,4 +23,28 @@
   text-decoration: none;
   color: black;
   cursor: pointer;
+}
+
+.un_ordered {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.un_ordered li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.un_ordered li a {
+  text-decoration: none;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 8vh;
+  justify-content: space-between;
 }
